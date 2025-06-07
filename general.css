@@ -1,0 +1,29 @@
+body {
+    background-image: url("HomePageImages/backgroundImg.gif");
+    /*background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+
+   color:white;
+   font-family:'Trebuchet MS';
+
+}
+
+button {
+    padding: 5px;
+    font-size: 24px;
+    background-color:blue;
+}
+
+.RainbowBG {
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    color:black;
+}
