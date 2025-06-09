@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="general.css">
     
     <script src="birthdaycounter.js"></script>
+    <script src="randomImage.js"></script>
 
+    
     <style>
 
         html, body {
@@ -80,11 +82,15 @@
 
     .directorylink {
         color:chocolate;
+        text-decoration: none;
+    }
+
+    .invis {
+        color: rgba(255, 255, 255, 0)
     }
     </style>
 </head>
 <body>
-
 
 <!-- Page General Layout  -->
 <div class="container">
@@ -109,12 +115,28 @@
 
         <br>
         <h3>// creative_projects //</h3>
-        <a href="art.html" class="directorylink">[koifish.blog/art3d]</a>
-        <p>> olly's 3d art portfolio</p>
-        <a href="art.html" class="directorylink">[koifish.blog/art2d]</a>
-        <p>> olly's 2d art collection</p>
+        <a href="art.html" class="directorylink"> [koifish.blog/art]</a>
+        <p> > olly's art page</p>
+        <a href="art.html" class="directorylink"> &emsp; [koifish.blog/art3d]</a>
+        <p> &emsp; > olly's 3d art portfolio</p>
+        <a href="art.html" class="directorylink"> &emsp; [koifish.blog/art2d]</a>
+        <p> &emsp; > olly's 2d art collection</p>
         <a href="games.html" class="directorylink">[koifish.blog/games]</a>
         <p>> olly's video games</p>
+        <br>
+        <h3>// personal_pages //</h3>
+        <a href="blog.html" class="directorylink">[koifish.blog/blog]</a>
+        <p>> olly's random blogs</p>
+        <a href="media.html" class="directorylink">[koifish.blog/media]</a>
+        <p>> olly's thoughts on media</p>
+        <a href="media.html" class="directorylink"> &emsp; [koifish.blog/media/youtube]</a>
+        <p> &emsp; > olly's thoughts on youtube videos</p>
+        <a href="media.html" class="directorylink"> &emsp; [koifish.blog/media/music]</a>
+        <p> &emsp; > olly's thoughts on music </p>
+        <a href="media.html" class="directorylink"> &emsp; [koifish.blog/media/games]</a>
+        <p> &emsp; > olly's thoughts on games</p>
+        <a href="blog.html" class="directorylink">[koifish.blog/pets]</a>
+        <p>> olly's pets</p>
     </div>
     
     <!-- Navigation bar -->
@@ -142,22 +164,27 @@
             <td>currently making this website</td>
         </tr>
         <tr>
-            <th>birthday:</th>
-        </tr>
-        <tr>
-            <td id="demo"></td>
-
-            </td>
-        </tr>
-        <tr>
             <th>update log:</th>
         </tr>
         <tr>
             <!-- Update Log Section -->
-            <td style="text-align: left;">
-            <i class="date">09.06.25 </i> - updated page layout heavily <br>
-            <i class="date">08.06.25 </i> - changed like everything <br>
-            <i class="date">06.06.25 </i> - made the website 
+                <td style="text-align: left;">
+                <i class="date">09.06.25 </i> - updated page layout heavily <br>
+                <i class="invis">09.06.25 </i> - added random carter picture <br>
+                <i class="date">08.06.25 </i> - changed like everything <br>
+                <i class="date">06.06.25 </i> - made the website 
+        </tr>
+        <tr>
+            <th>random carter photo:</th>
+        </tr>
+        <tr>
+            <td><img id="image1" src="" style="width:250px;"/></td>
+        </tr>
+        <tr>
+            <th>birthday countdown:</th>
+        </tr>
+        <tr>
+            <td id="demo"></td>
         </tr>
     </table>
 
@@ -168,26 +195,38 @@
         <h2>//welcome to koifish.blog:</h2>
         <p>> this is a small subsection of the internet created to scream into the digital void</p>
         <br>
+        <h3>//who are you?</h3>
+        <p>> im an early 20s person who's interested in early internet culture and a range of creative projects but primarily 3d art and game dev</p>
+        <p>> i've worked on a few cool projects (including this one) so i felt i should compile for any who's interested</p>
+        <br>
         <h3>//why make this site?</h3>
         <p>> social media is at an all time low with hate being pushed through monetary incendivised algorithms</p>
-        <p>> creative expression and internet autonomy help challenge the need for large scale social media and right wing echo chambers</p>
+        <p>> creative expression and autonomy on the internet help challenge the need for large scale social media which become right wing echo chambers</p>
         <p>> websites are easy and cheap for everyone to make and can be entirely molded into whatever you want</p>
         <p>> learning is free and accessible through guides such as<a href="https://www.w3schools.com/html/default.asp" class="directorylink">[this one]</a></p>
         <br>
         <h3>//what's the point of this site?</h3>
-        <p>> practically nothing - </p>
-
-
-        <p>if lost please follow the directory for guidance</p>
+        <p>> practically nothing besides the fact i wanted to - but there doesn't really need to be?</p>
+        <p>> being a creative self-made website is already enough to justify it's existence </p>
+        <p>> this place makes for a good place to showcase my own work and thoughts and can be presented in the format i best want</p>
         <br>
-        <p>this website was created by and for olly and was designed to run on her device</p>
-        <p>any device compatibility issues will probably not be fixed </p>
+        <h3>//why isn't your website suited to run on ___?</h3>
+        <p>> this website was created by and for olly and was designed to run on my pc</p>
+        <p>> i'm not really interested in compiling everything just to make it work on a device i'll never touch</p>
+        <p>> so any device compatibility issues will probably not be fixed </p>
+        <br>
+        <h3>//what's the future of the website?</h3>
+        <p>> koifish.blog is very fluid in nature at the moment, and i will be updating and adding whatever i find cool </p>
+        <p>> artistically this doesn't feel like it's "complete" so keep an eye out for future developments</p>
+        <br>
+        <h3>//contact me?</h3>
+        <p>> discord: @ollyxo</p>
+        <p>> bluesky: @ollyyyy.bsky.social [warning i don't use as much]</p>
     </div>
 
     <!-- Footer -->
     <div class="box" id="footer">
-        <a href='http://www.freevisitorcounters.com'>http://freevisitorcounters.com</a>
-        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d750780070cd621e4d0e7da6574549211a0d7908'></script>
+        <a href='http://www.freevisitorcounters.com'></a>
         <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1349110/t/5"></script>
         <p style="font-size:10px;"> @ 2025 by olly &lt3 </p>
     </div>
