@@ -2,140 +2,145 @@
 <html>
 <head>
     <title>Home - Koifish.blog</title>
-    <!-- <link rel="stylesheet" href="general.css"> -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="koifish.blog, contrary motion, koifish">
+    <meta name="author" content="Olly">
+    <meta charset="UTF-8">
+
+    <link rel="icon" type="image/x-icon" href="HomePageImages/koifishlogo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="HomePageImages/koifishlogo.ico">
+    <link rel="stylesheet" href="general.css">
+    
     <script src="birthdaycounter.js"></script>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
 
 
-        /* Style the header */
-        .header {
-            grid-area: header;
-            padding: 0px;
-            text-align: center;
-            font-size: 35px;
-        }
 
-        /* The grid container */
-        .grid-container {
-            display: grid;
-            grid-template-areas:
-                'header header header header header header'
-                'left middle middle middle middle middle'
-                'footer footer footer footer footer footer';
-            grid-column-gap: 10px;
-        }
+<style>
+* {
+    padding-left: 10px;
+}
 
-        .left,
-        .middle,
-        .right {
-            text-align: center;
-            padding: 20px;
-        }
-
-        /* Style the left column */
-        .left {
-            grid-area: left;
-        }
-
-        /* Style the middle column */
-        .middle {
-            grid-area: middle;
-        }
+.header h1, p {
+   margin: 0px; 
+}
 
 
-        /* Style the footer */
-        .footer {
-            grid-area: footer;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-        }
+.navbar ul {
+    width: 490.1px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+}
 
-        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-        @media (max-width: 600px) {
-            .grid-container {
-                grid-template-areas:
-                    'header header header header header header'
-                    'left left left left left left'
-                    'middle middle middle middle middle middle'
-                    'middle middle middle middle middle middle'
-                    'footer footer footer footer footer footer';
-            }
-        }
+.navbar li a {
+    font-size:18px;
+    text-align: center;
+    display:block;
+    float: left;
+    padding: 10px;
+    border-right: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+}
 
+.lastnavbarchild {
+    border-right: none;
+    font-size: 100px;
+}
 
-    
+</style>
 
-    </style>
 </head>
 <body>
 
-    <div class="grid-container">
-        <div class="header">
-            <h5>koifish.blog</h5>
-        </div>
-
-        <div class="left">
-            <div class="RainbowBG">
-                <h2>status:</h2>
-                <p>currently making this website T-T</p>
-            </div>
-
-            <br />
-
-            <a href="art.html"><button>Art</button></a>
-            <a href="games.html"><button>Games</button></a>
-
-        </div>
-
-        <div class="middle" >
-
-            <h2> this isnt a blog about koifish i'm sorry :[</h2>
-            <p> koifish.blog is a small subsection of the internet i own and use for creative transgressions and screaming into a digital void  </p>
-
-            <img src="HomePageImages/fishSpin.gif" style="width:1000px; height:300px;" />
-
-        </div>
-
-   
-
-        <div class="footer">
-            <a href='http://www.freevisitorcounters.com'>http://freevisitorcounters.com</a>
-            <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d750780070cd621e4d0e7da6574549211a0d7908'></script>
-            <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1349110/t/5"></script>
-            <p style="font-size:10px;"> @ 2025 by olly &lt3 </p>
-        </div>
-    </div>
+<!-- Header -->
+<div class="header">
+    <h1>koifish.blog</h1>
+    <p>> location - home</p>
+    <p>> social media was a mistake</p>
+</div>
 
 
-    <table>
+
+
+<!-- Navigation bar -->
+ <div class="navbar">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="games.html">about</a></li>
+            <li><a href="art.html">art</a></li>
+            <li><a href="games.html">games</a></li>
+            <li><a href="games.html">comissions</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li ><a href="media.html" class="lastnavbarchild">media</a></li>
+        </ul>
+</div>
+
+<!-- Sidebar -->
+<div class="rightcolumn">
+    <h2> website directory</h2>
+    <p> this is supposed to be on the right</p>
+</div>
+
+    
+    <br /><br />
+
+<!-- Information Table -->
+     <table>
         <tr>
             <th>status:</th>
-            <th>about:</th>
         </tr>
         <tr>
             <td>currently making this website</td>
-            <td>you are now listening to koifish.blog</td>
         </tr>
         <tr>
             <th>birthday:</th>
-            <th>other heaading:</th>
+            
         </tr>
         <tr>
-            <td id="demo"><td>
+            <td id="demo"></td>
+
+            </td>
+        </tr>
+        <tr>
+            <th>update log:</th>
+        </tr>
+        <tr>
+            <!-- Update Log Section -->
+            <td style="text-align: left;">
+            <i class="date">09.06.25 </i> - updated page layout heavily <br>
+            <i class="date">08.06.25 </i> - changed like everything <br>
+            <i class="date">06.06.25 </i> - made the website 
         </tr>
     </table>
-
-
-
     
+
+<!-- About Section -->
+ <div class="leftcolumn">
+    <h2> about //</h2>
+    
+    <p> welcome to koifish.blog </p>  
+    <p>this is a small subsection of the internet i own and use for creative transgressions and screaming into a digital void </p>
+</div>
+   
+
+    <br />
+    <br /> 
+
+<!-- Footer -->
+<div class="footer">
+    <a href='http://www.freevisitorcounters.com'>http://freevisitorcounters.com</a>
+    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d750780070cd621e4d0e7da6574549211a0d7908'></script>
+    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1349110/t/5"></script>
+    <p style="font-size:10px;"> @ 2025 by olly &lt3 </p>
+
+    <footer>
+  <p>Footer</p>
+</footer>
+</div>
+
 </body>
 </html>
