@@ -2,18 +2,136 @@
 <html>
 <head>
     <title>Games - Koifish.blog</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="koifish.blog, contrary motion, koifish">
+    <meta name="author" content="Olly">
+    <meta charset="UTF-8">
+
     <link rel="icon" type="image/x-icon" href="HomePageImages/koifishlogo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="HomePageImages/koifishlogo.ico">
     <link rel="stylesheet" href="general.css">
+    
+    <script src="birthdaycounter.js"></script>
+    <script src="randomImage.js"></script>
 </head>
 <body>
 
-    <h1>Games</h1>
-                <br />
-        <a href="index.html"><button>Home</button></a>
-    
-    <div class="scrollable-content">
-        <div class="games-media">
 
+<!-- Page General Layout  -->
+<div class="container">
+
+    <!-- Header -->
+    <div class="box" id="header">
+        <div class="header">
+            <h1>koifish.blog</h1>
+            <p>> location - games</p>
+            <p>> man video games are so awesome</p>
+        </div>
+    </div>
+    
+    <!-- Website directory -->
+    <div class="box" id="webdir">
+        
+        <h2>website_directory</h2>
+        <br>
+        <a href="index.html" class="directorylink">[koifish.blog]</a>
+        <p>> home page</p>
+
+        <br>
+        <h3>// creative_projects //</h3>
+        <a href="art.html" class="directorylink"> [koifish.blog/art]</a>
+        <p> > olly's art page</p>
+        <a href="art.html" class="directorylink"> &emsp; [koifish.blog/art3d]</a>
+        <p> &emsp; > olly's 3d art portfolio</p>
+        <a href="art.html" class="directorylink"> &emsp; [koifish.blog/art2d]</a>
+        <p> &emsp; > olly's 2d art collection</p>
+        <a href="games.html" class="directorylink">[koifish.blog/games]</a>
+        <p>> olly's video games</p>
+        <br>
+        <h3>// personal_pages //</h3>
+        <a href="blog.html" class="directorylink">[koifish.blog/blog]</a>
+        <p>> olly's random blogs</p>
+        <a href="media.html" class="directorylink">[koifish.blog/media]</a>
+        <p>> olly's thoughts on media</p>
+        <a href="media.html" class="directorylink"> &emsp; [koifish.blog/media/youtube]</a>
+        <p> &emsp; > olly's thoughts on youtube videos</p>
+        <a href="media.html" class="directorylink"> &emsp; [koifish.blog/media/music]</a>
+        <p> &emsp; > olly's thoughts on music </p>
+        <a href="media.html" class="directorylink"> &emsp; [koifish.blog/media/games]</a>
+        <p> &emsp; > olly's thoughts on games</p>
+        <a href="blog.html" class="directorylink">[koifish.blog/pets]</a>
+        <p>> olly's pets</p>
+        <br>
+        <h3>// other_pages //</h3>
+        <a href="blog.html" class="directorylink">[koifish.blog/updatelog]</a>
+        <p>> full website history update log</p>
+    </div>
+    
+    
+    <!-- Navigation bar -->
+    <div class="box" id="navbar">       
+        <div class="navbar">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="art.html">art</a></li>
+                    <li><a href="games.html">games</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li ><a href="media.html" class="lastnavbarchild">media</a></li>
+                </ul>
+        </div>
+    </div>
+    <!-- Side bar -->
+    <div class="box" id="sidebar">
+
+        <!-- Information Table -->
+     <table>
+        <tr>
+            <th>status:</th>
+        </tr>
+        <tr>
+            <td>currently making this website</td>
+        </tr>
+        <tr>
+            <th>recent update log:</th>
+        </tr>
+        <tr>
+            <!-- Update Log Section -->
+             <div class="scrollable-content">
+                <td style="text-align: left;">
+                <i class="date">09.06.25 </i> - updated page layout heavily <br>
+                <i class="invis">09.06.25 </i> - added random carter picture <br>
+                <i class="date">08.06.25 </i> - changed like everything <br>
+                <i class="date">06.06.25 </i> - made the website </td>
+            </div>
+        </tr>
+        <tr>
+            <th>random carter photo:</th>
+        </tr>
+        <tr>
+            <td><img id="image1" src="" style="width:250px;"/></td>
+        </tr>
+        <tr>
+            <th>birthday countdown:</th>
+        </tr>
+        <tr>
+            <td id="demo"></td>
+        </tr>
+    </table>
+
+    </div>
+
+    <!-- Main Body Section -->
+    <div class="box" id="mainbody">
+
+
+
+        <div class="scrollable-content">
+        <div class="games-media">
+        <h2>> games</h2>
+        <p>a collection of game(s) i've worked on</p>
+        <hr>
+        <br>
         <h2>contrary motion:</h2>
         <img src="ArtImages/ContraryMotion_TankGraphicDesign.png" class="gamesImages" />
         <p>
@@ -47,7 +165,7 @@
         <hr>
         <br />
 
-        <h2>rope swing fps prototype:</h2>
+        <!-- <h2>rope swing fps prototype:</h2>
         <p style="color:rgb(247, 75, 75); font-size: 12px;"><b>[warning this is a small project not really intented for more than 2 mins of gameplay]</b></p>
         <img src="ArtImages/RopeSwingFPS.png" class="gamesImages" />
         <p> > release date [2024] | developed by     
@@ -57,7 +175,7 @@
         <a href="https://ollyxo.itch.io/alphafpstest" target="_blank">[download on itch.io]</a>
 
          <br /><br />
-        <hr>
+        <hr> -->
         <br />
 
         <h2>possum tim's pawesome adventure: </h2>
@@ -69,9 +187,20 @@
         <p> > responsibilities: 3d art & level design </p>
         <a href="https://ljw-games.itch.io/pawesome" target="_blank">[download on itch.io]</a>
 
+            </div>
         </div>
     </div>
-    <br />
+
+
+ 
+    <!-- Footer -->
+    <!-- <div class="box" id="footer">
+        <a href='http://www.freevisitorcounters.com'></a>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1349110/t/5"></script>
+        <p style="font-size:10px;"> @ 2025 by olly &lt3 </p>
+    </div> -->
+</div>
+
 
 </body>
 </html>
