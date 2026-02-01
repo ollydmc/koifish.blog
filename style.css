@@ -1,0 +1,203 @@
+﻿body {
+    color: rgb(245, 245, 245);
+    font-family: 'Consolas';
+    font-size:16px;
+    background-image: url("images/home_page/bgImage.png");
+    background-color: rgb(17,17,17);
+    margin: 0px auto;
+    display: block;
+}
+
+center {
+    display:block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+
+/* Classes */
+
+.title {
+    font-weight: bold;
+    font-size:18px;
+    width: 1410px;
+    height: 18px;
+    color: rgb(17, 17, 17);
+    background-color: rgb(245, 245, 245);
+    text-align:left;
+    padding: 4px 12px 12px;
+    margin: 0px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.version {
+    width: 1420px;
+    padding-top: 4px;
+    margin: 0px;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0px;
+}
+
+.dirbox {
+    width: 280px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    border-image: initial;
+    background-color: rgba(17, 17, 17, 0.4);
+    margin: 8px 0px 8px 8px;
+}
+
+.dirheader {
+    font-size: 24px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    border-image: initial;
+    margin: 8px;
+}
+
+.dirbody {
+    padding: 8px;
+}
+
+.subheading {
+    font-weight: bold;
+    color: rgb(17, 17, 17);
+    background: rgb(245, 245, 245);
+    padding: 4px;
+}
+
+.subheading_comms {
+    justify-content: center;
+    text-align: center;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(245, 17, 17);
+    border-image: initial;
+    background-color: rgb(0, 0, 0);
+    margin: 8px;
+    padding: 8px;
+}
+
+.tree {
+    position: relative;
+    margin: 0px 0px 0px 8px;
+    padding: 0px;
+    list-style: none;
+}
+
+.tree li {
+    position:relative;
+    padding: 0px;
+}
+
+.mainbox{
+    width:860px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    border-image: initial;
+    background-color: rgba(17, 17, 17, 0.4);
+    padding:16px;
+    margin: 8px;
+}
+
+.mainheader {
+    color: rgb(245, 245, 245);
+    font-size:24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: rgb(17, 17, 170);
+    padding: 4px;
+}
+
+.maincontent {
+    text-align: justify;
+    padding: 8px;
+}
+
+.navbox {
+    width: 220px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    background-color: rgba(17, 17, 17, 0.4);
+    border-image: initial;
+    margin: 8px 0px 8px 8px;
+}
+
+.navbody {
+    padding: 8px;
+}
+
+.barimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 128px;
+    width: 128px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    border-image: initial;
+    margin: 8px;
+    padding: 2px;
+}
+
+.missingpage {
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    background: rgb(245, 17, 17);
+}
+
+/* Befores */
+
+.version::before {
+    content: "v.0.02a"
+}
+
+.tree li::before {
+    content: "├─ ";
+    font-family: monospace;
+}
+
+.tree li:last-child:before {
+    content: "└─ ";
+    font-family: monospace;
+}
