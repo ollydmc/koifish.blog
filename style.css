@@ -44,6 +44,29 @@ a:visited {
 .title {
     font-weight: bold;
     font-size:18px;
+    height: 18px;
+    color: rgb(17, 17, 17);
+    background-color: rgb(245, 245, 245);
+    text-align:left;
+    padding: 4px 12px 12px;
+    margin: 0px;
+}
+
+.twocolumntitle {
+    font-weight: bold;
+    font-size:18px;
+    width: 1130px;
+    height: 18px;
+    color: rgb(17, 17, 17);
+    background-color: rgb(245, 245, 245);
+    text-align:left;
+    padding: 4px 12px 12px;
+    margin: 0px;
+}
+
+.threecolumntitle {
+    font-weight: bold;
+    font-size:18px;
     width: 1410px;
     height: 18px;
     color: rgb(17, 17, 17);
@@ -60,8 +83,14 @@ a:visited {
     flex-wrap: wrap;
 }
 
-.version {
+.version3column {
     width: 1420px;
+    padding-top: 4px;
+    margin: 0px;
+}
+
+.version2column {
+    width: 1140px;
     padding-top: 4px;
     margin: 0px;
 }
@@ -152,6 +181,23 @@ a:visited {
     padding: 8px;
 }
 
+.mainimages {
+    border: 2px dashed rgb(245, 17, 17);
+    text-align: center;
+    padding: 8px;
+}
+
+.mainimages2 {
+    border: 2px solid #F5F5F5;
+    margin: 8px;
+    padding: 8px;
+}
+
+.mainimg2 {
+    width: 700px;
+    padding: 8px;
+}
+
 .navbox {
     width: 220px;
     border-width: 2px;
@@ -186,9 +232,28 @@ a:visited {
     background: rgb(245, 17, 17);
 }
 
+.artshowcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 128px;
+    width: 128px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    border-image: initial;
+    margin: 8px;
+    padding: 2px;
+}
+
+
 /* Befores */
 
-.version::before {
+.version2column::before {
+    content: "v.0.02a"
+}
+
+.version3column::before {
     content: "v.0.02a"
 }
 
@@ -200,4 +265,8 @@ a:visited {
 .tree li:last-child:before {
     content: "└─ ";
     font-family: monospace;
+}
+
+.commisionstatus::after {
+    content: "Offline ";
 }
